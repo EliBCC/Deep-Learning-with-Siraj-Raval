@@ -66,6 +66,10 @@ if __name__ == '__main__':
     print 'Prediction for eagle: '
     print neural_network.predict(array([1,1,1]))
 
+    #Predict for Human:
+    print 'Prediction for human: '
+    print neural_network.predict(array([0,0,0]))
+
     #Predict for Penguin:
     print 'Prediction for penguin: '
     print neural_network.predict(array([0,1,1]))
